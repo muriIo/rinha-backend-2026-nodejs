@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "A Node.js implementation for the 'Rinha de Backend 2026' challenge.",
   "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node --watch src/index.ts",
+    "start": "node src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/muriIo/rinha-backend-2026-nodejs/issues"
   },
-  "homepage": "https://github.com/muriIo/rinha-backend-2026-nodejs#readme"
+  "homepage": "https://github.com/muriIo/rinha-backend-2026-nodejs#readme",
+  "devDependencies": {
+    "@types/node": "25.9.1",
+    "typescript": "6.0.3"
+  }
 }
