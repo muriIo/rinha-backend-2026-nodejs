@@ -27,7 +27,6 @@
   },
   "homepage": "https://github.com/muriIo/rinha-backend-2026-nodejs#readme",
   "devDependencies": {
-    "@types/node": "25.9.1",
-    "typescript": "6.0.3"
+    "@types/node": "25.9.1"
   }
 }
